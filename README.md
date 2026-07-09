@@ -32,3 +32,22 @@ Pastikan Anda sudah menginstal aplikasi berikut di komputer Anda:
 1. Buka terminal atau command prompt, lalu masuk ke direktori folder `backend`:
    ```bash
    cd backend
+
+### Menjalankan aplikasinya
+Jalankan perintah berikut untuk menginstal semua library/dependensi yang dibutuhkan:
+npm install
+
+Jalankan server backend menggunakan mode development:
+npm run dev
+
+Server backend akan berjalan di alamat http://localhost:5000. Tabel database akan otomatis terbuat di phpMyAdmin melalui fitur sinkronisasi Sequelize.
+
+Cara Menjalankan Frontend
+Masuk ke dalam folder frontend.
+
+Klik dua kali pada file index.html untuk membukanya secara langsung di browser pilihan Anda (Google Chrome/Edge/Firefox).
+
+Pengujian Aplikasi
+Setelah frontend terbuka, Anda bisa langsung mencoba fitur Tambah Data Mobil.
+
+Lakukan transaksi sewa pada Form Transaksi Booking untuk melihat simulasi perhitungan harga otomatis dan perubahan status mobil dari 'Tersedia' menjadi 'Disewa'.
